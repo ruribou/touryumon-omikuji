@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Noto Serif JP", serif;
+    background-color: #1a0a00;
+    color: #f5f0e8;
+    /* 和紙のような微かな質感（放射グラデーション） */
+    background-image:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(201, 168, 76, 0.12),
+        transparent 60%
+      ),
+      radial-gradient(circle at 50% 100%, rgba(230, 57, 70, 0.06), transparent 55%);
+    background-attachment: fixed;
+  }
+}
