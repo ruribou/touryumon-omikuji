@@ -89,10 +89,3 @@ FNV-1a 系ハッシュでシードを作り、`mulberry32` で疑似乱数列を
   "luckyNumber": 7
 }
 ```
-
-## 今後の拡張アイデア（スコープ外）
-
-- 結果の SNS シェア機能
-- localStorage によるおみくじ履歴の保存
-- Claude API による個別コメントの AI 生成
-- PWA 化
